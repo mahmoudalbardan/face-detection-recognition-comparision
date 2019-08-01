@@ -1,8 +1,8 @@
 # malbardan
 
-This is a project for face detection, extraction, comparison, age and gender detection and finally weight, height and bmi estimation.
+This is a project for face detection, extraction, comparison, age and gender detection and weight, height and bmi estimation.
 
-For face detection and extraction i use the algorithm in this repository https://github.com/Linzaer/Face-Track-Detect-Extract. It is based on MultiTask convolutional neural network (MTCNN). The algorithm detects a face in a video, track it then outputs a list of tracked faces. 
+For face detection and extraction i use the algorithm in this repository https://github.com/Linzaer/Face-Track-Detect-Extract. It is based on MultiTask Cascaded Convolutional neural network (MTCNN). The algorithm detects a face in a video, track it then outputs a list of tracked faces. 
 
 We use two cameras which continuously sends videos extracted by (motioneye software) to two different directories. These videos are treated and faces are extracted and sent to two differents image directories with time label.
 

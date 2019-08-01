@@ -8,7 +8,7 @@ We use two cameras which continuously sends videos extracted by (motioneye softw
 
 The face comparison function in Facenet algorithm (found in  https://github.com/davidsandberg/facenet) is used. It computes  an image representation then compute the euclidian distance between two images. The decision function is fixed according to a distance threshold.
 
-Another way to compare is extracting the fc6 (or another layer output) features in VGGFace algorithm and then compare it .
+Another way to compare is extracting the fc6 (or another layer output) features in VGGFace algorithm and then compare it.
 
 Note that image comparison using facenet compare function is easier than the one using VGGFace.
 

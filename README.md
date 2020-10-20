@@ -10,5 +10,5 @@ The face comparison function in Facenet algorithm (found in  https://github.com/
 
 Another way to compare is extracting the fc6 (or another layer output) features in VGGFace algorithm and then compare it.
 
-Note that image comparison using facenet compare function is easier than the one using VGGFace.
+Note that facenet compare function is more powerful for our application than the one based on VGGFace's layer.
 

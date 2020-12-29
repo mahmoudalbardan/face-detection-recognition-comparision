@@ -1,4 +1,4 @@
-# malbardan
+# Face detection, recognition and comparison
 
 This is a mini - project for face detection, extraction, comparison, age and gender detection and weight, height and bmi estimation.
 
